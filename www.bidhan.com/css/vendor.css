@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-@font-face {
+@font-face {img-responsive
     font-family: 'montserratextrabold';
     src: url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'), url('../fonts/montserrat-extrabold-webfont.woff') format('woff');
     font-weight: normal;
@@ -155,7 +155,11 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
 
-
+.margin-top-5 
+{
+    margin-top:5px!important;
+}
+ 
 .readmore {
     text-decoration: none;
     color: #fff000
@@ -321,8 +325,8 @@ aside section {
 }
 
 .stickynav .navbar-brand>img {
-    width: 140px;
-    height: auto
+    width: 80px;
+    height: 40px;
 }
 
 .stickynav .navbar-nav {
@@ -689,6 +693,11 @@ footer {
     color: #fff;
 }
 
+.footer-padding
+{
+    padding-top:30px;
+}
+
 footer .logo {
     width: 100%;
 }
@@ -731,8 +740,8 @@ footer .social a {
 }
 
 footer .social a:hover {
-    color: #fff;
-    background: #fff000
+    color: #fff000;
+    background: #000
 }
 
 footer .social a i {
@@ -1080,7 +1089,7 @@ footer .nav li {
 /*Contact us Page-----------------*/
 
 .bidhanicon {
-    max-width: 30px;
+    max-width: 60px;
     height: auto;
     margin: auto
 }
